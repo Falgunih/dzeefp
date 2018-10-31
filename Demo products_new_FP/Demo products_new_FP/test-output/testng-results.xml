@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="194084" started-at="2018-10-31T10:26:27Z" finished-at="2018-10-31T10:29:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="194084" started-at="2018-10-31T10:26:27Z" finished-at="2018-10-31T10:29:41Z">
+      <class name="testcases.NewFPTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startReport" is-config="true" duration-ms="212" started-at="2018-10-31T10:26:27Z" finished-at="2018-10-31T10:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="beforeClass" is-config="true" duration-ms="8980" started-at="2018-10-31T10:26:27Z" finished-at="2018-10-31T10:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="5" started-at="2018-10-31T10:26:36Z" finished-at="2018-10-31T10:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.comparePlanTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="6256" started-at="2018-10-31T10:26:36Z" finished-at="2018-10-31T10:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="FAIL" signature="comparePlanTest()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="comparePlanTest" duration-ms="21461" started-at="2018-10-31T10:26:42Z" finished-at="2018-10-31T10:27:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='plan_summary_compare_plans_popup_div']/div/img"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+*** Element info: {Using=xpath, value=//*[@id='plan_summary_compare_plans_popup_div']/div/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='plan_summary_compare_plans_popup_div']/div/img"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+*** Element info: {Using=xpath, value=//*[@id='plan_summary_compare_plans_popup_div']/div/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at commonActions.BrowserActions.isElementDisplayed(BrowserActions.java:302)
+at commonActions.BrowserActions.loadingSymbolState(BrowserActions.java:389)
+at pages.NewFPPage.comparePlan(NewFPPage.java:321)
+at testcases.NewFPTest.comparePlanTest(NewFPTest.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePlanTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1101" started-at="2018-10-31T10:27:04Z" finished-at="2018-10-31T10:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="3" started-at="2018-10-31T10:27:05Z" finished-at="2018-10-31T10:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=comparePlanTest status=FAILURE method=NewFPTest.comparePlanTest()[pri:0, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.comparePlanTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="1" started-at="2018-10-31T10:27:05Z" finished-at="2018-10-31T10:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.HealthcareVideo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="9360" started-at="2018-10-31T10:27:05Z" finished-at="2018-10-31T10:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="HealthcareVideo()[pri:1, instance:testcases.NewFPTest@3ffcd140]" name="HealthcareVideo" duration-ms="12597" started-at="2018-10-31T10:27:14Z" finished-at="2018-10-31T10:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthcareVideo -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1209" started-at="2018-10-31T10:27:27Z" finished-at="2018-10-31T10:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T10:27:28Z" finished-at="2018-10-31T10:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HealthcareVideo status=SUCCESS method=NewFPTest.HealthcareVideo()[pri:1, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.HealthcareVideo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="4289" started-at="2018-10-31T10:27:29Z" finished-at="2018-10-31T10:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:27:29Z" finished-at="2018-10-31T10:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.editPlanTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="FAIL" signature="editPlanTest(java.lang.String, java.lang.String)[pri:1, instance:testcases.NewFPTest@3ffcd140]" name="editPlanTest" duration-ms="15283" started-at="2018-10-31T10:27:33Z" data-provider="editPlan" finished-at="2018-10-31T10:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gayatri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='displayPlanContainer']/tr[1]/td[1]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='displayPlanContainer']/tr[1]/td[1]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+at commonActions.BrowserActions.waitForPresenceOfElement(BrowserActions.java:158)
+at commonActions.BrowserActions.click(BrowserActions.java:136)
+at pages.NewFPPage.editPlan(NewFPPage.java:119)
+at testcases.NewFPTest.editPlanTest(NewFPTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='displayPlanContainer']/tr[1]/td[1]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+*** Element info: {Using=xpath, value=//*[@id='displayPlanContainer']/tr[1]/td[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPlanTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="974" started-at="2018-10-31T10:27:49Z" finished-at="2018-10-31T10:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:27:50Z" finished-at="2018-10-31T10:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editPlanTest status=FAILURE method=NewFPTest.editPlanTest(java.lang.String, java.lang.String)[pri:1, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.editPlanTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:27:50Z" finished-at="2018-10-31T10:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.deletePlanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="3941" started-at="2018-10-31T10:27:50Z" finished-at="2018-10-31T10:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="FAIL" signature="deletePlanTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.NewFPTest@3ffcd140]" name="deletePlanTest" duration-ms="15288" started-at="2018-10-31T10:27:54Z" data-provider="newPlanData" finished-at="2018-10-31T10:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gayatri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Best Health]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[80010]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[80010]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for presence of element located by: By.id: deletePlan-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.id: deletePlan-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+at commonActions.BrowserActions.waitForPresenceOfElement(BrowserActions.java:158)
+at commonActions.BrowserActions.click(BrowserActions.java:136)
+at pages.NewFPPage.deletePlan(NewFPPage.java:135)
+at testcases.NewFPTest.deletePlanTest(NewFPTest.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"deletePlan-0"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+*** Element info: {Using=id, value=deletePlan-0}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlanTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1032" started-at="2018-10-31T10:28:09Z" finished-at="2018-10-31T10:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:28:10Z" finished-at="2018-10-31T10:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePlanTest status=FAILURE method=NewFPTest.deletePlanTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.deletePlanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:28:10Z" finished-at="2018-10-31T10:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.helpFileTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="3990" started-at="2018-10-31T10:28:10Z" finished-at="2018-10-31T10:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="helpFileTest()[pri:3, instance:testcases.NewFPTest@3ffcd140]" name="helpFileTest" duration-ms="1119" started-at="2018-10-31T10:28:14Z" finished-at="2018-10-31T10:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpFileTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1079" started-at="2018-10-31T10:28:15Z" finished-at="2018-10-31T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:28:16Z" finished-at="2018-10-31T10:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=helpFileTest status=SUCCESS method=NewFPTest.helpFileTest()[pri:3, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.helpFileTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:28:16Z" finished-at="2018-10-31T10:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.addNewContentMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="4053" started-at="2018-10-31T10:28:16Z" finished-at="2018-10-31T10:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="addNewContentMail()[pri:4, instance:testcases.NewFPTest@3ffcd140]" name="addNewContentMail" duration-ms="2253" started-at="2018-10-31T10:28:20Z" finished-at="2018-10-31T10:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContentMail -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1114" started-at="2018-10-31T10:28:22Z" finished-at="2018-10-31T10:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T10:28:24Z" finished-at="2018-10-31T10:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewContentMail status=SUCCESS method=NewFPTest.addNewContentMail()[pri:4, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.addNewContentMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="4034" started-at="2018-10-31T10:28:24Z" finished-at="2018-10-31T10:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:28:24Z" finished-at="2018-10-31T10:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.createNewPlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="createNewPlan(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testcases.NewFPTest@3ffcd140]" name="createNewPlan" duration-ms="31722" started-at="2018-10-31T10:28:28Z" data-provider="newPlanData" finished-at="2018-10-31T10:28:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gayatri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Best Health]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[80010]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[80010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPlan -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1048" started-at="2018-10-31T10:28:59Z" finished-at="2018-10-31T10:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:29:00Z" finished-at="2018-10-31T10:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewPlan status=SUCCESS method=NewFPTest.createNewPlan(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.createNewPlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:29:00Z" finished-at="2018-10-31T10:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.medicareBundlesTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="4178" started-at="2018-10-31T10:29:00Z" finished-at="2018-10-31T10:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="FAIL" signature="medicareBundlesTest()[pri:8, instance:testcases.NewFPTest@3ffcd140]" name="medicareBundlesTest" duration-ms="6705" started-at="2018-10-31T10:29:05Z" finished-at="2018-10-31T10:29:11Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for element to be clickable: By.id: viewPlan-0-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for element to be clickable: By.id: viewPlan-0-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+at commonActions.BrowserActions.waitForElementToBeClickable(BrowserActions.java:166)
+at commonActions.BrowserActions.click(BrowserActions.java:137)
+at pages.NewFPPage.viewProjections(NewFPPage.java:208)
+at pages.NewFPPage.compareMedicareBundles(NewFPPage.java:221)
+at testcases.NewFPTest.medicareBundlesTest(NewFPTest.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- medicareBundlesTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1049" started-at="2018-10-31T10:29:11Z" finished-at="2018-10-31T10:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:29:12Z" finished-at="2018-10-31T10:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=medicareBundlesTest status=FAILURE method=NewFPTest.medicareBundlesTest()[pri:8, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.medicareBundlesTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="1" started-at="2018-10-31T10:29:12Z" finished-at="2018-10-31T10:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.financialAdvicePdf()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="3972" started-at="2018-10-31T10:29:12Z" finished-at="2018-10-31T10:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="financialAdvicePdf()[pri:9, instance:testcases.NewFPTest@3ffcd140]" name="financialAdvicePdf" duration-ms="11315" started-at="2018-10-31T10:29:16Z" finished-at="2018-10-31T10:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- financialAdvicePdf -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1379" started-at="2018-10-31T10:29:28Z" finished-at="2018-10-31T10:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T10:29:29Z" finished-at="2018-10-31T10:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=financialAdvicePdf status=SUCCESS method=NewFPTest.financialAdvicePdf()[pri:9, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.financialAdvicePdf()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="startTest" is-config="true" duration-ms="0" started-at="2018-10-31T10:29:29Z" finished-at="2018-10-31T10:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.fundWithInvestmentsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="loginToApplication" is-config="true" duration-ms="3999" started-at="2018-10-31T10:29:29Z" finished-at="2018-10-31T10:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="FAIL" signature="fundWithInvestmentsTest()[pri:9, instance:testcases.NewFPTest@3ffcd140]" name="fundWithInvestmentsTest" duration-ms="6845" started-at="2018-10-31T10:29:33Z" finished-at="2018-10-31T10:29:40Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for element to be clickable: By.id: viewPlan-0-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for element to be clickable: By.id: viewPlan-0-0
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'GS-3981', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\GS-1519\AppData\Local\Temp\scoped_dir18624_13425}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b0e9bd6778f52c88583b9f0ed6a38898
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+at commonActions.BrowserActions.waitForElementToBeClickable(BrowserActions.java:166)
+at commonActions.BrowserActions.click(BrowserActions.java:137)
+at pages.NewFPPage.viewProjections(NewFPPage.java:208)
+at pages.NewFPPage.fundWithInvestments(NewFPPage.java:228)
+at testcases.NewFPTest.fundWithInvestmentsTest(NewFPTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundWithInvestmentsTest -->
+        <test-method status="PASS" signature="logoutOfApplication()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="logoutOfApplication" is-config="true" duration-ms="1003" started-at="2018-10-31T10:29:40Z" finished-at="2018-10-31T10:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T10:29:41Z" finished-at="2018-10-31T10:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fundWithInvestmentsTest status=FAILURE method=NewFPTest.fundWithInvestmentsTest()[pri:9, instance:testcases.NewFPTest@3ffcd140] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.NewFPTest.fundWithInvestmentsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.NewFPTest@3ffcd140]" name="endReport" is-config="true" duration-ms="487" started-at="2018-10-31T10:29:41Z" finished-at="2018-10-31T10:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.NewFPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

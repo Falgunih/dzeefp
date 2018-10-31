@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Financial Planner Demo Test Suite]">
+  <test name="Demo Application test(failed)">
+    <classes>
+      <class name="testcases.FPDemoTest">
+        <methods>
+          <include name="stopTest"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="startTest"/>
+          <include name="sendReport"/>
+          <include name="beforeClass"/>
+          <include name="logoutOfApplication"/>
+          <include name="createNewPlan" invocation-numbers="0"/>
+          <include name="editPlanTest" invocation-numbers="0"/>
+          <include name="deleteButtonTest" invocation-numbers="0"/>
+          <include name="getResult"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- testcases.FPDemoTest -->
+    </classes>
+  </test> <!-- Demo Application test(failed) -->
+</suite> <!-- Failed suite [Financial Planner Demo Test Suite] -->

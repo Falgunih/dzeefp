@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name = "Financial Planner Demo Test Suite">
+ 	<test name = "Demo Application test">
+	<classes>
+	<class name = "testcases.FPDemoTest"/>
+	</classes>
+	</test>
+	</suite>

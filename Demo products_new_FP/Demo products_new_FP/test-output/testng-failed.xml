@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.NewFPTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="loginToApplication"/>
+          <include name="logoutOfApplication"/>
+          <include name="fundWithInvestmentsTest"/>
+          <include name="startReport"/>
+          <include name="startTest"/>
+          <include name="editPlanTest" invocation-numbers="0"/>
+          <include name="medicareBundlesTest"/>
+          <include name="comparePlanTest"/>
+          <include name="getResult"/>
+          <include name="deletePlanTest" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.NewFPTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
